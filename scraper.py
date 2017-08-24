@@ -8,4 +8,4 @@ html_content = r.text
 
 soup = BeautifulSoup(html_content, 'lxml')
 
-print soup.find_all('h2')[0:12]
+print soup.find_all('h2')[0:10]
