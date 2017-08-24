@@ -1,4 +1,3 @@
-import csv
 import requests 
 from bs4 import BeautifulSoup
 for i in range(3):      # Number of pages plus one 

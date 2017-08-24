@@ -8,5 +8,5 @@ for i in range(3):      # Number of pages plus one
     content = [el.text for el in soup("div","uk-h3 uk-margin-small")]
     print content
 leads = content.find("div","uk-h3 uk-margin-small").text    
-print leads
+print leads	
 
