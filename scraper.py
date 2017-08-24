@@ -7,7 +7,6 @@
 ## Lets dig into some python!
 
 
-
 ## I have added notes to help us learn what is going on in this file
 ## While using python you can use additional "packages" to help enhance 
 ## the functionality of what you are trying to do. Here we are using 2 packages
@@ -16,6 +15,7 @@
 ## We imported the entire requests package by saying import vs only importing a portion
 ## of the BeautifulSoup package by saying from bs4 import BeautifulSoup.
 
+import csv
 import requests
 from bs4 import BeautifulSoup
 
@@ -40,7 +40,7 @@ r = requests.get(url)
 
 html_content = r.text
 
-##Below we use the BeautifulSoup package we imported on line 10. The package sets the syntax of 
+## Below we use the BeautifulSoup package we imported on line 10. The package sets the syntax of 
 ## how to use it so know the first action (html_content) is reserved for whatever variable you stored
 ## the text of the website page you want to scrape in. The second action ('lxml') is determining
 ## which "parser" your code is going to use. This is more of an advanced feature but using this 
@@ -60,6 +60,7 @@ soup = BeautifulSoup(html_content, 'lxml')
 ## it to print out 0:10 it will actually return 11 examples! Minor detail but something to know. 
 
 print soup.find_all('h2')[0:10]
+print soup.find_all('a')[0:10]
 
 ## There is a lot you can do in addition to this. I have attached some other files in this repo 
 ## that show you some other examples. You can remove the html tags to just return names or you can save
