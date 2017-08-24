@@ -14,3 +14,4 @@ http://www.pythonforbeginners.com/python-on-the-web/web-scraping-with-beautifuls
 This site is a little more advanced but has some good reference material
 
 http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html
+
