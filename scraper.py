@@ -1,14 +1,15 @@
-from bs4 import BeautifulSoup
-import pprint
 import requests
+from bs4 import BeautifulSoup
 
-r = requests.get('https://www.kslaw.com/people')
-soup = BeautifulSoup(r.text, 'html.parser')
-#print type(soup)
-print soup.prettify()[0:1000]
-'''
-people = soup.find_all(class_="person")
+'''url = 'https://www.kslaw.com/people'''
+url = 'https://www.iald.org/Designers?search'
 
-pp = pprint.PrettyPrinter(indent=4)
-pp.pprint(people)
-'''
+r = requests.get(url)
+
+html_content = r.text
+
+soup = BeautifulSoup(html_content, 'lxml')
+
+print soup.title
+
+print soup.find_all('h2')[0:50]
