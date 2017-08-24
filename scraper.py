@@ -1,3 +1,13 @@
+## Hey everyone! My name is Kameron Kales and I work at Glance. 
+## Glance helps companies do persona based recruiting. Roughly what this means 
+## is we provide recruiters the ability to target passive candidates and fully manage the 
+## top of the candidate funnel. We basically make it so companies have inbound marketing
+## for candidates. So long story short I am sort of a developer and sort of a recruiter.
+
+## Lets dig into some python!
+
+
+
 ## I have added notes to help us learn what is going on in this file
 ## While using python you can use additional "packages" to help enhance 
 ## the functionality of what you are trying to do. Here we are using 2 packages
@@ -50,3 +60,10 @@ soup = BeautifulSoup(html_content, 'lxml')
 ## it to print out 0:10 it will actually return 11 examples! Minor detail but something to know. 
 
 print soup.find_all('h2')[0:10]
+
+## There is a lot you can do in addition to this. I have attached some other files in this repo 
+## that show you some other examples. You can remove the html tags to just return names or you can save
+## the list to a spreasheet. To keep things simple for this quick intro I didn't go that far. 
+## I would be happy to do that for another lesson! 
+
+## Hopefully this is helpful.
