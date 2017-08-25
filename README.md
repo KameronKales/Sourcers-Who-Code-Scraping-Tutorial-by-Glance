@@ -12,9 +12,9 @@ Clone this repo to your local machine and then pip install -r requirements.txt.
 
 Then run 
 
-'''
+```
 python basic_scraper.py
-'''
+```
 
 ## Built With
 
