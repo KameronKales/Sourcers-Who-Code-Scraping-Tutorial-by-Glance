@@ -24,7 +24,7 @@ python basic_scraper.py
 
 ## Authors
 
-* **Kameron Kales** - *Glance* - [Glance](https://www.linkedin.com/in/kameronkales)
+* **Kameron Kales** - *Glance* - [View on LinkedIn](https://www.linkedin.com/in/kameronkales)
 
 ## Acknowledgments
 
