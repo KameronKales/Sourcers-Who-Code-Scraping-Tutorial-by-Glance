@@ -1,6 +1,6 @@
 # 5 Line Web Scraper
 
-Web Scraper Tutorial Using Python and BeautifulSoup4
+Web Scraper Tutorial Using Python and BeautifulSoup4. View on [YouTube](https://youtu.be/kIAVs7wJXpQ)
 
 ## Getting Started
 
