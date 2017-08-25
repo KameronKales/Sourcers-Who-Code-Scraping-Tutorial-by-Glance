@@ -28,6 +28,6 @@ python basic_scraper.py
 
 ## Acknowledgments
 
-* Special thanks to Sourcers Who Code for having me on for a lesson.
-* Thank you to Michael Crouse for the personal invitation. 
+* Special thanks to [Sourcers Who Code](https://www.facebook.com/groups/SourcersWhoCode/) for having me on for a lesson.
+* Thank you to [Michael Crouse](https://www.facebook.com/BigMikenATL) for the personal invitation. 
 
