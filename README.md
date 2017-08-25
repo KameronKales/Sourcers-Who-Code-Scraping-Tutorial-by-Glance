@@ -1,4 +1,4 @@
-# Project Title
+# 5 Line Web Scraper
 
 Web Scraper Tutorial Using Python and BeautifulSoup4
 
@@ -13,9 +13,7 @@ Clone this repo to your local machine and then pip install -r requirements.txt.
 Then run 
 
 '''
-
 python basic_scraper.py
-
 '''
 
 ## Built With
@@ -26,7 +24,7 @@ python basic_scraper.py
 
 ## Authors
 
-* **Kameron Kales** - *Glance* - [Glance](linkedin.glance.ai/kam)
+* **Kameron Kales** - *Glance* - [Glance](www.linkedin.com/in/kameronkales)
 
 ## Acknowledgments
 
