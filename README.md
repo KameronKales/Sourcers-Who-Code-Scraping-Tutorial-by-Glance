@@ -1,13 +1,35 @@
-# web_scraper_example
-This is a sample repo that shows sourcers who code how to scrape a website. 
+# Project Title
 
-Some notes for this repo.
-1. The new machine file shows you commands to run on your device once you have ubuntu installed. I would suggest writing them one by one and hitting enter in your terminal. 
+Web Scraper Tutorial Using Python and BeautifulSoup4
 
+## Getting Started
 
-2. The update machine file is good to run the commands out of if you have previously used Ubuntu and are not sure if everything is up to date. Again, type a line into your terminal and hit enter. Then repeat for the rest of the lines. 
+Clone this repo to your machine and pip install -r requirements.txt to get up and running. There are multiple examples in this repo. I would suggest starting with basic_scrapper.py and working through the notes to understand what is happening. Next, I would suggest looking at list_of_leads to understand how I wrote a scraper to grab 900 leads and save them into a list together. 
 
-3. The connect file will not be relevant to anyone else. Disregard that. 
+## Installation
 
-4. The bulk scrape and clean scrape files are 2 others that increase in complexity. Feel free to mess around with those and if anything doesn't work, ask for help!
+Clone this repo to your local machine and then pip install -r requirements.txt. 
+
+Then run 
+
+'''
+
+python basic_scraper.py
+
+'''
+
+## Built With
+
+* [Python](https://www.python.org/) - Programming language
+* [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Web Scraping Tool
+* [Requests](http://docs.python-requests.org/en/master/) - Library To Make HTTP Requests Easy 
+
+## Authors
+
+* **Kameron Kales** - *Glance* - [Glance](linkedin.glance.ai/kam)
+
+## Acknowledgments
+
+* Special thanks to Sourcers Who Code for having me on for a lesson.
+* Thank you to Michael Crouse for the personal invitation. 
 
