@@ -1,8 +1,4 @@
-## Hey everyone! My name is Kameron Kales and I work at Glance. 
-## Glance helps companies do persona based recruiting. Roughly what this means 
-## is we provide recruiters the ability to target passive candidates and fully manage the 
-## top of the candidate funnel. We basically make it so companies have inbound marketing
-## for candidates. So long story short I am sort of a developer and sort of a recruiter.
+
 
 ## Lets dig into some python!
 
